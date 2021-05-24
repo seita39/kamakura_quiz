@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>かまくらクイズ</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top">
+            <h1 class="title">かまくらraraクイズ</h1>
+            <p class="concept1">
+                　新しい鎌倉移住者が、鎌倉ライフに馴染めるきっかけ作りの情報をクイズ形式でまとめてみました！
+                
+            </p>
+            <div class="genres">
+                <button type="button" class="btn-change1">せいかつ編</button>
+                <button type="button" class="btn-change2">ともだちづくり編</button>
+                <button type="button" class="btn-change3">グルメ編</button>
+            </div>
+            <p class="concept">
+                私もかつて、東京での仕事をやめて実家も出て、鎌倉で一人暮らし・同棲生活を始めましたが、
+            </p>
+            <p class="concept">
+                コロナ禍で知人もできず、せっかく移住してきたのに疎外感を感じていました。
+                同じような悩みを抱えている方が少しでも鎌倉生活を楽しむきっかけを掴めれば嬉しいです！
+            </p>
+
+            
+        </div>
+        <div class="quiz-display">
+            <div class="question">
+                <div id="q-text">q-text</div>
+                <button type="button" class="btn btn-block btn-lg btn-info">Primary</button>
+                <button type="button" class="btn btn-block btn-lg btn-info">Primary</button>
+                <button type="button" class="btn btn-block btn-lg btn-info">Primary</button>
+                <button type="button" class="btn btn-block btn-lg btn-info">Primary</button>
+            </div>
+            <div class="answer">
+                <div id="a-text">A. 正解or不正解</div>
+                <div class="an-detail" id="detail"></div>
+                <button type="button" class="btn-next btn-danger">次へ</button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="../main.js"></script>
+    <script src="../jquery.js"></script>
+
+    <!-- 　ようこそかまくらへ！このサイトは、
+                新しく鎌倉に移住してきた方々が、よりスムーズに鎌倉に馴染めるように、
+                役に立つ情報をクイズ形式でまとめたゲームサイトです。
+                私もかつて、東京での仕事をやめて実家も出て、心機一転鎌倉で
+                一人暮らし・同棲生活を始めました。
+                当時はコロナが流行し始めた頃で、
+                周囲とコミュニケーションが取りにくく、生活に苦労しました。
+                当時知りたかった情報を、クイズ形式で遊びながらしれるようにまとめてみたので、
+                同じような悩みを抱えている鎌倉移住したての方や、これから鎌倉移住を検討している方の
+                一つのヒントになれば幸いです。
+             -->
+</body>

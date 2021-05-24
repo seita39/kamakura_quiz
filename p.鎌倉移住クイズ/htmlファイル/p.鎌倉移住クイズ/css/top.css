@@ -1,0 +1,94 @@
+
+
+html {
+    height: 100%;
+}
+
+body {
+    /* background: blue; */
+    height: 100%;
+    margin: 0;
+}
+
+.top-visit {
+    background: rgb(63, 20, 20);
+    height: 100%;
+    width: 100%;
+}
+
+.topimgdiv {
+    background: rgb(63, 20, 20);
+    text-align: center;
+    position: relative;
+}
+
+.topimg {
+    width: 80%;
+}
+
+.textbox {
+    color: rgb(214, 214, 214);
+    position: absolute;
+    top: 350px; left: 50px;
+    font-family: HiraMinPro-W6;
+}
+
+.textbox h1{
+    letter-spacing: 15px;
+}
+
+.textbox button {
+    border: none;
+    outline: none;
+    letter-spacing: 5px;
+    font-size: 30px;
+    line-height: 50px;
+    background: rgb(82, 25, 25);
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px #c48d89;
+    transition: all 0.2s;
+}
+
+.textbox button a {
+    user-select: none;
+}
+
+.textbox button:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.textbox button a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.textbox button a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.textbox button:active {
+    margin-top: 5px;
+    box-shadow: 5px 5px;
+}
+
+@media screen and (max-width: 480px) { 
+    .textbox {
+        color: rgb(214, 214, 214);
+        position: absolute;
+        top: 230px; left: 30px;
+        font-family: HiraMinPro-W6;
+    }
+    .textbox h1{
+        letter-spacing: 7px;
+    }
+    .textbox button {
+        margin-top: 7px;
+        font-size: 25px;
+        line-height: 35px;
+
+    }
+}
